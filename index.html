@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Trivolo</title>
+
+</head>
+
+<>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Trivolo</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#discover" class="nav__link">Discover</a>
+          </li>
+          <li class="nav__item">
+            <a href="#place" class="nav__link">Places</a>
+          </li>
+        </ul>
+
+        <div class="nav__dark">
+          <!-- Theme change button -->
+          <span class="change-theme-name">Dark mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+
+        <i class="ri-close-line nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <img src="image/main-img.jpeg" alt="" class="home__img" />
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__data-title">
+            Explore &
+            Reserve
+            <b> <br />
+              Studios</b> with <br /><b>Trivolo</b>
+          </h1>
+          <a href="#subscribe" class="button">Joint Waitlist</a>
+        </div>
+
+        <!-- <div class="home__social">
+          <a href="#" target="_blank" class="home__social-link">
+            <i class="ri-facebook-box-fill"></i>
+          </a>
+          <a href="#" target="_blank" class="home__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a href="#" target="_blank" class="home__social-link">
+            <i class="ri-twitter-fill"></i>
+          </a>
+        </div> -->
+
+        <!-- <div class="home__info">
+          <div>
+            <span class="home__info-title">5 best places to visit</span>
+            <a href="" class="button button--flex button--link home__info-button">
+              More <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__info-overlay">
+            <img src="image/image5.jpeg" alt="" class="home__info-img" />
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            About Trivolo
+          </h2>
+          <p class="about__description">
+            Trivolo is more than a booking service; we're curators of inspiring studio environments. Join us as we
+            redefine the way creators connect with their ideal spaces.
+          </p>
+          <a href="#subscribe" class="button">Join Waitlist</a>
+        </div>
+
+        <div class="about__img">
+          <div class="about__img-overlay">
+            <img src="image/image2.jpeg" alt="" class="about__img-one mob-non" />
+          </div>
+
+          <div class="about__img-overlay ">
+            <img src="image/image-3.jpeg" alt="" class="about__img-two mob-yes-two" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== DISCOVER ====================-->
+    <section class="discover section" id="discover">
+      <h2 class="section__title">
+        Discover Studios
+      </h2>
+
+      <div class="discover__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== DISCOVER 1 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="image/image6.jpeg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Goa</h2>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 2 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="image/image7.jpeg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Delhi-NCR</h2>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 3 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="image/image6.jpeg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Jaipur</h2>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 4 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="image/image8.jpeg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Mumbai</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== EXPERIENCE ====================-->
+    <section class="experience section">
+      <h2 class="section__title">
+        Trivolo has
+      </h2>
+
+      <div class="experience__container container grid">
+        <div class="experience__content grid">
+          <div class="experience__data">
+            <h2 class="experience__number">1000+</h2>
+            <span class="experience__description">Studios </span>
+          </div>
+
+          <div class="experience__data">
+            <h2 class="experience__number">10000+</h2>
+            <span class="experience__description">Happy <br />
+              Customers</span>
+          </div>
+
+          <div class="experience__data">
+            <h2 class="experience__number">20+</h2>
+            <span class="experience__description">Cities</span>
+          </div>
+        </div>
+
+        <div class="experience__img grid">
+          <div class="experience__overlay">
+            <img src="image/exp1.jpeg" alt="" class="experience__img-one" />
+          </div>
+
+          <div class="experience__overlay">
+            <img src="image/exp2.jpeg" alt="" class="experience__img-two" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== VIDEO ====================-->
+    <section class="video section">
+      <h2 class="section__title">Voices of creativity</h2>
+
+      <div class="video__container container">
+        <p class="video__description">
+          Anticipating a seamless studio booking experience with Trivolo. The future of creative spaces!
+        </p>
+
+        <div class="video__content">
+          <video id="video-file">
+            <source src="video/video.mp4" type="video/mp4" />
+          </video>
+
+          <button class="button button--flex video__button" id="video-button">
+            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PLACES ====================-->
+    <section class="place section" id="place">
+      <h2 class="section__title">Trivolo is available </h2>
+
+      <div class="place__container container grid">
+        <!--==================== PLACES CARD 1 ====================-->
+        <div class="place__card">
+          <img src="image/place1.jpeg" alt="" class="place__img" style="width: 13rem;" />
+
+          <div class="place__content">
+            <span class="place__rating">
+              <i class="ri-star-line place__rating-icon"></i>
+              <span class="place__rating-number">4.8</span>
+            </span>
+
+            <div class="place__data">
+              <h3 class="place__title">Goa</h3>
+              <span class="place__subtitle">India</span>
+              <span class="place__price">₹7999</span>
+            </div>
+          </div>
+
+          <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!--==================== PLACES CARD 2 ====================-->
+        <div class="place__card">
+          <img src="image/place2.jpeg" alt="" class="place__img" style="width: 13rem;" />
+
+          <div class="place__content">
+            <span class="place__rating">
+              <i class="ri-star-line place__rating-icon"></i>
+              <span class="place__rating-number">5.0</span>
+            </span>
+
+            <div class="place__data">
+              <h3 class="place__title">Delhi-NCR</h3>
+              <span class="place__subtitle">India</span>
+              <span class="place__price">₹4999</span>
+            </div>
+          </div>
+
+          <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!--==================== PLACES CARD 3 ====================-->
+        <div class="place__card">
+          <img src="image/place3.jpeg" alt="" class="place__img" style="width: 13rem;" />
+
+          <div class="place__content">
+            <span class="place__rating">
+              <i class="ri-star-line place__rating-icon"></i>
+              <span class="place__rating-number">4.9</span>
+            </span>
+
+            <div class="place__data">
+              <h3 class="place__title">Mumbai</h3>
+              <span class="place__subtitle">India</span>
+              <span class="place__price">₹3499</span>
+            </div>
+          </div>
+
+          <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!--==================== PLACES CARD 4 ====================-->
+        <div class="place__card">
+          <img src="image/Delhi.jpeg" alt="" class="place__img" style="width: 13rem;" />
+
+          <div class="place__content">
+            <span class="place__rating">
+              <i class="ri-star-line place__rating-icon"></i>
+              <span class="place__rating-number">4.8</span>
+            </span>
+
+            <div class="place__data">
+              <h3 class="place__title">Chandigarh</h3>
+              <span class="place__subtitle">India</span>
+              <span class="place__price">₹5999</span>
+            </div>
+          </div>
+
+          <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <!--==================== PLACES CARD 5 ====================-->
+        <div class="place__card">
+          <img src="image/jaipur.jpeg" alt="" class="place__img" style="width: 13rem;" />
+
+          <div class="place__content">
+            <span class="place__rating">
+              <i class="ri-star-line place__rating-icon"></i>
+              <span class="place__rating-number">4,8</span>
+            </span>
+
+            <div class="place__data">
+              <h3 class="place__title">Jaipur</h3>
+              <span class="place__subtitle">India</span>
+              <span class="place__price">₹2999</span>
+            </div>
+          </div>
+
+          <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SUBSCRIBE ====================-->
+    <section class="subscribe section" id="submit">
+      <div class="subscribe__bg">
+        <div class="subscribe__container container">
+          <h2 class="section__title subscribe__title">
+            Subscribe
+          </h2>
+          <p class="subscribe__description">
+            Secure your exclusive spot now to enjoy sneak peeks, priority booking access, and special launch offers.
+            <br />Dive into creativity from day one.
+          </p>
+
+          <form action="" class="subscribe__form">
+            <input type="email" placeholder="Enter email" id="email" name="subscriber" class="subscribe__input" />
+
+            <button class="button" onclick="sendEmail(event); reset(); return false">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <div class="footer__data">
+          <h3 class="footer__title">Trivolo</h3>
+          <p class="footer__description">
+            Trivolo is Studio booking platform. Explore Photo, Video and Music studios with Trivolo.
+          </p>
+          <div>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social">
+              <i class="ri-youtube-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">About</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Features</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Company</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="" class="footer__link">Team</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Plan y Pricing</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Become a member</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Support</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="" class="footer__link">FAQs</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Support Center</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__rights">
+        <p class="footer__copy">
+          &#169; <span id="year"></span> Trivolo. All rigths reserved.
+        </p>
+        <div class="footer__terms">
+          <a href="#" class="footer__terms-link">Terms & Agreements</a>
+          <a href="#" class="footer__terms-link">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL===============-->
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="js/script.js"></script>
+
+  <!--=============== EMAIL ===============-->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./js/mail.js"></script>
+  </body>
+
+</html>
