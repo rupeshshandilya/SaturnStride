@@ -347,7 +347,7 @@
     <section class="subscribe section" id="submit">
       <div class="subscribe__bg">
         <div class="subscribe__container container">
-          <h2 class="section__title subscribe__title">
+          <h2 class="section__title subscribe__title" id="subscribe_text">
             Subscribe
           </h2>
           <p class="subscribe__description">
@@ -358,7 +358,7 @@
           <form action="" class="subscribe__form">
             <input type="email" placeholder="Enter email" id="email" name="subscriber" class="subscribe__input" />
 
-            <button class="button" onclick="sendEmail(event); reset(); return false">Subscribe</button>
+            <button class="button" id="subscribe_button" onclick="sendEmail(event); reset(); return false">Subscribe</button>
           </form>
         </div>
       </div>
