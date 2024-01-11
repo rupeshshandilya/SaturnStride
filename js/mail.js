@@ -1,3 +1,5 @@
+// let subscribe = document.getElementById("subscribe_text").value;
+
 function sendEmail(event){
   event.preventDefault(); 
   console.log("clicked");
@@ -9,5 +11,8 @@ To : emailId,
 From : "connect@trivolo.in",
 Subject : "This is the subject",
 Body : "And this is the body"
-})
+}).then(
+  document.getElementById("subscribe_text").innerHTML = "Subscribed",
+  document.getElementById("subscribe_button").innerHTML = "Subscribed"
+)
 }
