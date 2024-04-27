@@ -36,7 +36,7 @@
 
   /*========== Font weight ==========*/
   --font-medium: 500;
-  --font-semi-bold: 600;
+  --font-semi-bold: 700;
 
   /*========== Margenes Bottom ==========*/
   --mb-0-25: 0.25rem;
@@ -214,6 +214,7 @@ input {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+  font-size: x-large;
 }
 
 .nav__toggle {
@@ -315,7 +316,6 @@ input {
 }
 
 .home__data-subtitle,
-.home__data-title,
 .home__social-link,
 .home__info {
   color: var(--white-color);
@@ -328,6 +328,7 @@ input {
 }
 
 .home__data-title {
+  color: black;
   font-size: 3.5rem;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
@@ -456,6 +457,10 @@ input {
   position: relative;
   width: 200px;
   overflow: var(--img-hidden);
+}
+
+.discover-height{
+  height: 50vh;
 }
 
 .discover__data {
@@ -598,7 +603,7 @@ input {
 
 .place__content,
 .place__title {
-  color: var(--white-color);
+  color: black;
 }
 
 .place__content {
